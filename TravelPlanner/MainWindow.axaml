@@ -5,5 +5,58 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TravelPlanner.MainWindow"
         Title="TravelPlanner">
-    Welcome to Avalonia!
+        <StackPanel>
+                <Grid>
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="Pytanie 1"/>
+                        <TextBox Grid.Row="0" Grid.Column="1" Width="100" Height="30"/>
+                        
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="1" Text="Pytanie 2"/>
+                        <ComboBox Grid.Row="1" Grid.Column="2">
+                                <ComboBoxItem Content="Włochy"/>
+                                <ComboBoxItem Content="Japonia"/>
+                                <ComboBoxItem Content="Norwegia"/>
+                                <ComboBoxItem Content="USA"/>
+                                <ComboBoxItem Content="Francja"/>
+                        </ComboBox>
+                        
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Muzea"/>
+                        <CheckBox Grid.Row="2" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Parki Narodowe"/>
+                        <CheckBox Grid.Row="3" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="Zabytki"/>
+                        <CheckBox Grid.Row="4" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Row="5" Grid.Column="0" Text="Restauracje"/>
+                        <CheckBox Grid.Row="5" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="Galerie sztuki"/>
+                        <CheckBox Grid.Row="6" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="Festiwale i koncerty"/>
+                        <CheckBox Grid.Row="7" Grid.Column="3"></CheckBox>
+                </Grid>
+                
+        </StackPanel>
+        
+        
 </Window>
