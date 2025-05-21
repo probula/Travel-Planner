@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uovXkwRRtdw=",
+  "dgSpecHash": "qWj1tD0thwg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\TravelPlanner.csproj",
+  "projectFilePath": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor\\.nuget\\packages\\avalonia\\11.2.6\\avalonia.11.2.6.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

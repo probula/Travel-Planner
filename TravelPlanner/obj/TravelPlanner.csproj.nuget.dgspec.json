@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\TravelPlanner.csproj": {}
+    "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\TravelPlanner.csproj": {
+    "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\TravelPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj",
         "projectName": "TravelPlanner",
-        "projectPath": "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\TravelPlanner.csproj",
+        "projectPath": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor\\RiderProjects\\TravelPlanner\\TravelPlanner\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"

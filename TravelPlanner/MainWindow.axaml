@@ -18,6 +18,10 @@
                                 <RowDefinition Height="Auto"></RowDefinition>
                                 <RowDefinition Height="Auto"></RowDefinition>
                                 <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -54,6 +58,19 @@
                         
                         <TextBlock Grid.Row="7" Grid.Column="0" Text="Festiwale i koncerty"/>
                         <CheckBox Grid.Row="7" Grid.Column="3"></CheckBox>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="8" Text="Samolot"/>
+                        <RadioButton Grid.Column="1" Grid.Row="8"/>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="9" Text="Samochód"/>
+                        <RadioButton Grid.Column="1" Grid.Row="9"/>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="10" Text="Pociąg"/>
+                        <RadioButton Grid.Column="1" Grid.Row="10"/>
+                        
+                        <TextBlock Grid.Column="0" Grid.Row="11" Text="Statek"/>
+                        <RadioButton Grid.Column="1" Grid.Row="11"/>
+                        
                 </Grid>
                 
         </StackPanel>
