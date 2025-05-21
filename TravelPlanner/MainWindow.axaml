@@ -4,7 +4,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TravelPlanner.MainWindow"
-        Title="TravelPlanner">
+        Title="TravelPlanner"
+        Width="900" Height="800">
         <StackPanel>
                 <Grid>
                         <Grid.RowDefinitions>
@@ -42,22 +43,22 @@
                         </ComboBox>
                         
                         <TextBlock Grid.Row="2" Grid.Column="0" Text="Muzea"/>
-                        <CheckBox Grid.Row="2" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="2" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Row="3" Grid.Column="0" Text="Parki Narodowe"/>
-                        <CheckBox Grid.Row="3" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="3" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Row="4" Grid.Column="0" Text="Zabytki"/>
-                        <CheckBox Grid.Row="4" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="4" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Row="5" Grid.Column="0" Text="Restauracje"/>
-                        <CheckBox Grid.Row="5" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="5" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Row="6" Grid.Column="0" Text="Galerie sztuki"/>
-                        <CheckBox Grid.Row="6" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="6" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Row="7" Grid.Column="0" Text="Festiwale i koncerty"/>
-                        <CheckBox Grid.Row="7" Grid.Column="3"></CheckBox>
+                        <CheckBox Grid.Row="7" Grid.Column="1"></CheckBox>
                         
                         <TextBlock Grid.Column="0" Grid.Row="8" Text="Samolot"/>
                         <RadioButton Grid.Column="1" Grid.Row="8"/>
@@ -70,6 +71,13 @@
                         
                         <TextBlock Grid.Column="0" Grid.Row="11" Text="Statek"/>
                         <RadioButton Grid.Column="1" Grid.Row="11"/>
+                        
+                        <TextBox Grid.Row="12" Grid.Column="0" Watermark="Dodaj miasto"/>
+                        <ListBox Grid.Row="12" Grid.Column="1">
+                                <ListBoxItem Content="1"></ListBoxItem>
+                                <ListBoxItem Content="2"></ListBoxItem>
+                                <ListBoxItem Content="3"></ListBoxItem>
+                        </ListBox>
                         
                 </Grid>
                 
