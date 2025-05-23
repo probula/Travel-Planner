@@ -5,81 +5,84 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TravelPlanner.MainWindow"
         Title="TravelPlanner"
-        Width="900" Height="800">
-        <StackPanel
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-                <Grid>
-                        <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                                <RowDefinition Height="Auto"></RowDefinition>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="0" Text="Pytanie 1" Margin="5"/>
-                        <TextBox Grid.Row="0" Grid.Column="1" Width="100" Height="30" Margin="5"/>
-                        
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="1" Text="Pytanie 2" Margin="5"/>
-                        <ComboBox Grid.Row="1" Grid.Column="1" Margin="5">
-                                <ComboBoxItem Content="Włochy"/>
-                                <ComboBoxItem Content="Japonia"/>
-                                <ComboBoxItem Content="Norwegia"/>
-                                <ComboBoxItem Content="USA"/>
-                                <ComboBoxItem Content="Francja"/>
-                        </ComboBox>
-                        
-                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Muzea" Margin="5"/>
-                        <CheckBox Grid.Row="2" Grid.Column="1" Margin="5"/>
-                        
-                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Parki Narodowe" Margin="5"/>
-                        <CheckBox Grid.Row="3" Grid.Column="1" Margin="5"/>
-                        
-                        <TextBlock Grid.Row="4" Grid.Column="0" Text="Zabytki" Margin="5"/>
-                        <CheckBox Grid.Row="4" Grid.Column="1" Margin="5"/>
-                         
-                        <TextBlock Grid.Row="5" Grid.Column="0" Text="Restauracje" Margin="5"/>
-                        <CheckBox Grid.Row="5" Grid.Column="1" Margin="5"/>
-                        
-                        <TextBlock Grid.Row="6" Grid.Column="0" Text="Galerie sztuki" Margin="5"/>
-                        <CheckBox Grid.Row="6" Grid.Column="1" Margin="5"/>
-                        
-                        <TextBlock Grid.Row="7" Grid.Column="0" Text="Festiwale i koncerty" Margin="5"/>
-                        <CheckBox Grid.Row="7" Grid.Column="1" Margin="5"/>
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="8" Text="Samolot" Margin="5"/>
-                        <RadioButton Grid.Column="1" Grid.Row="8" GroupName="Transport" Margin="5"/>
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="9" Text="Samochód" Margin="5"/>
-                        <RadioButton Grid.Column="1" Grid.Row="9" GroupName="Transport" Margin="5"/>
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="10" Text="Pociąg" Margin="5"/>
-                        <RadioButton Grid.Column="1" Grid.Row="10" GroupName="Transport" Margin="5"/>
-                        
-                        <TextBlock Grid.Column="0" Grid.Row="11" Text="Statek" Margin="5"/>
-                        <RadioButton Grid.Column="1" Grid.Row="11" GroupName="Transport" Margin="5"/>
-                        
-                        <TextBox Grid.Row="12" Grid.Column="0" Watermark="Dodaj miasto" Margin="5"/>
-                        <ListBox Grid.Row="12" Grid.Column="1" Margin="5">
-                                <ListBoxItem Content="1"></ListBoxItem>
-                                <ListBoxItem Content="2"></ListBoxItem>
-                                <ListBoxItem Content="3"></ListBoxItem>
-                        </ListBox>
-                </Grid>
-        </StackPanel>
+        Width="900" Height="600"
+        WindowStartupLocation="CenterScreen">
+        
+        <ScrollViewer>
+                <StackPanel
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                        <Grid>
+                                <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="0" Text="Wpisz imię i nazwisko: " Margin="5"/>
+                                <TextBox Grid.Row="0" Grid.Column="1" Width="100" Height="30" Margin="5"/>
+                                
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="1" Text="Wybierz kraj docelowy" Margin="5"/>
+                                <ComboBox Grid.Row="1" Grid.Column="1" Margin="5">
+                                        <ComboBoxItem Content="Włochy"/>
+                                        <ComboBoxItem Content="Japonia"/>
+                                        <ComboBoxItem Content="Norwegia"/>
+                                        <ComboBoxItem Content="USA"/>
+                                        <ComboBoxItem Content="Francja"/>
+                                </ComboBox>
+                                
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Muzea" Margin="5"/>
+                                <CheckBox Grid.Row="2" Grid.Column="1" Margin="5"/>
+                                
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Parki Narodowe" Margin="5"/>
+                                <CheckBox Grid.Row="3" Grid.Column="1" Margin="5"/>
+                                
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Zabytki" Margin="5"/>
+                                <CheckBox Grid.Row="4" Grid.Column="1" Margin="5"/>
+                                 
+                                <TextBlock Grid.Row="5" Grid.Column="0" Text="Restauracje" Margin="5"/>
+                                <CheckBox Grid.Row="5" Grid.Column="1" Margin="5"/>
+                                
+                                <TextBlock Grid.Row="6" Grid.Column="0" Text="Galerie sztuki" Margin="5"/>
+                                <CheckBox Grid.Row="6" Grid.Column="1" Margin="5"/>
+                                
+                                <TextBlock Grid.Row="7" Grid.Column="0" Text="Festiwale i koncerty" Margin="5"/>
+                                <CheckBox Grid.Row="7" Grid.Column="1" Margin="5"/>
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="8" Text="Samolot" Margin="5"/>
+                                <RadioButton Grid.Column="1" Grid.Row="8" GroupName="Transport" Margin="5"/>
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="9" Text="Samochód" Margin="5"/>
+                                <RadioButton Grid.Column="1" Grid.Row="9" GroupName="Transport" Margin="5"/>
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="10" Text="Pociąg" Margin="5"/>
+                                <RadioButton Grid.Column="1" Grid.Row="10" GroupName="Transport" Margin="5"/>
+                                
+                                <TextBlock Grid.Column="0" Grid.Row="11" Text="Statek" Margin="5"/>
+                                <RadioButton Grid.Column="1" Grid.Row="11" GroupName="Transport" Margin="5"/>
+                                
+                                <TextBox Grid.Row="12" Grid.Column="0" Watermark="Dodaj miasto" Margin="5" x:Name="miastoDodaj"/>
+                                
+                                <ListBox Grid.Row="12" Grid.Column="1" Margin="5" x:Name="miastoLista"></ListBox>
+                                
+                                <Button Grid.ColumnSpan="2" Grid.Row="13" Content="Dodaj" HorizontalAlignment="Center" x:Name="miastoButton"/>
+                        </Grid>
+                </StackPanel>
+        </ScrollViewer>
 </Window>
