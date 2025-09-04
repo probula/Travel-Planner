@@ -1431,24 +1431,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Igor\\.nuget\\packages\\": {}
+    "/home/igor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj",
+      "projectUniqueName": "/home/igor/RiderProjects/Travel-Planner/TravelPlanner/TravelPlanner.csproj",
       "projectName": "TravelPlanner",
-      "projectPath": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\TravelPlanner.csproj",
-      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\RiderProjects\\Travel-Planner2\\TravelPlanner\\obj\\",
+      "projectPath": "/home/igor/RiderProjects/Travel-Planner/TravelPlanner/TravelPlanner.csproj",
+      "packagesPath": "/home/igor/.nuget/packages/",
+      "outputPath": "/home/igor/RiderProjects/Travel-Planner/TravelPlanner/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/igor/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1467,7 +1468,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1510,7 +1511,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
